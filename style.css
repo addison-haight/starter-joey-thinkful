@@ -28,6 +28,14 @@ header ul li a {
     margin: 0 20px 0 0;
 }
 
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+
 @media all and (min-width: 600px) {
     header {
         display: flex;
@@ -50,4 +58,11 @@ header ul li a {
     header nav ul li a:hover {
         color: lightblue;
     }
+
+    p {
+    color: black;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
 }
